@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+  <base  target="_blank">
+  <title>IEP-Sciences</title>
+
+  <meta charset="utf-8">
+  <meta name="description" content="Installation de modules scientifiques python automatisé">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="icon" href="img/icon.ico">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://stefansundin.github.io/css/main.css">
+</head>
+<body>
+  <header>
+    <img src="img/icon.ico" width="256" height="256" itemprop="image">
+    <hgroup>
+      <h1 itemprop="name">IEP-Sciences</h1>
+      <h2 itemprop="description">Installation de modules scientifiques python automatisé</h2>
+    </hgroup>
+  </header>
+
+  <div class="topbar buttons">
+    <a target="_self" class="btn btn-lg btn-default" href="https://github.com/frederic-lepoutre/IEP-Sciences/releases/download/0.1/IEP-Sciences.exe" track="download"><span class="glyphicon glyphicon-download-alt"></span> Télécharger l'installateur</a>
+    <a class="btn btn-lg btn-default" href="https://github.com/stefansundin/xn_resource_editor"><span class="glyphicon glyphicon-list-alt"></span> Sources</a>
+  </div>
+
+  <div class="container">
+    <h2>Description</h2>
+
+    <p>IEP-science est un programme servant à automatiser l'importation sur des postes utilisant IEP et dérivés (Pyzo...) comme I.D.E. pour Python.
+Outre le fait de rassembler des modules absents de Scipy (la plupart proviennent de collègues en classes préparatoires), mais néanmoins intéressants et pratiques, son intérêt réside dans le gain de temps réalisé lors de nombreuses installations (écoles d'ingénieur, classes préparatoires aux grandes écoles).  </p>
+
+    <h2>Fonctionnalités</h2>
+    <p><ul>
+    <li>Import de modules de Mathématiques, Physique, Sciences Industrielles et Chimie) à chaque démarage de la distribution Python (copie les modules dans la <a href="https://docs.python.org/2/using/cmdline.html#miscellaneous-options">Python path</a>) </li>
+    <li>Les fonctions sont globales c'est à dire qu'il n'y a pas besoin d'indiquer le nom du module (ex: math.sin())</li>
+    <li>Liste des modules disponibles par matière en invoquant le nom de la matière depuis un interpréteur avec <code>science:matière</code> (math, physique, si et chimie en nom de matière)
+    </ul></p>
+    <h2>Capture d'écran</h2>
+    <p><img src="img/xnresourceeditor.png" width="900" height="170" itemprop="image" style="PADDING-TOP: 15px"></p>
+    <h2>Notes d'utilisation</h2>
+    <ul>
+    <li>IEP doit être installé sur l'ordinateur. Si vous ne l'avez pas pas déjà fait vous pouvez le télécharger <a href="http://www.iep-project.org/downloads.html">ici</a>.</li>
+    <li>S'il s'agit d'une version portable de Pyzo mais néanmoins présent sur le disque où IEP-science est exécuté, le programme activera l'installation de modules via des binaires grâce à <a href="http://www.iep-project.org/downloads.html)">pyzo_activate</a></li>
+    <li>IEP-Sciences cherchera I.E.P. dans son dossier d'installation traditionel et s'il ne le trouve pas cherchera récursivement dans les dossiers parents.</li>
+    </ul>
+
+    <h3>Bugs</h3>
+    <p>IEP-Sciences a été testé fonctionel sur windows 7 et windows XP. Seul un bug important a été relevé : un conflit avec une autre distribution python précédement installé empêchait l'execution. 
+    Si vous rencontrez un bug, merci de m'envoyer un mail avec "Bug" en objet à login@outlook.com en remplaçant login par frederic.lepoutre
+    </p>
+  </div>
+
+  <script src="https://stefansundin.github.io/js/https.js"></script>
+  <script src="https://stefansundin.github.io/js/ga.js"></script>
+</body>
+</html>
